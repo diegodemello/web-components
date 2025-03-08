@@ -4,35 +4,3 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
 }
-
-.card{
-    width: 900px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-.card_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-}
-
-.card_left > h1{
-    margin-top: 15px;
-    font-size: 25px;
-}
-
-.card_left > p{
-    color: gray;
-}
-
-.card_left > span{
-    font-weight: 400;
-}
-
-.card_right > img{
-    width: 400px;
-}
